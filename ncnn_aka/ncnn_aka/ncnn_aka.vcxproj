@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{c53331cb-00bf-4220-bdb7-214fc4fa5edd}</ProjectGuid>
+    <RootNamespace>ncnnaka</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn;E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\layer;E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\layer\x86;D:\OpenCV\install\include;D:\OpenCV\install\include\opencv2;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\x86;E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer;E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <Optimization>Disabled</Optimization>
+      <OpenMPSupport>false</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\OpenCV\install\x64\vc16\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world453d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ncnn\allocator.cpp" />
+    <ClCompile Include="ncnn\benchmark.cpp" />
+    <ClCompile Include="ncnn\blob.cpp" />
+    <ClCompile Include="ncnn\command.cpp" />
+    <ClCompile Include="ncnn\cpu.cpp" />
+    <ClCompile Include="ncnn\c_api.cpp" />
+    <ClCompile Include="ncnn\datareader.cpp" />
+    <ClCompile Include="ncnn\gpu.cpp" />
+    <ClCompile Include="ncnn\layer.cpp" />
+    <ClCompile Include="ncnn\layer\absval.cpp" />
+    <ClCompile Include="ncnn\layer\argmax.cpp" />
+    <ClCompile Include="ncnn\layer\batchnorm.cpp" />
+    <ClCompile Include="ncnn\layer\bias.cpp" />
+    <ClCompile Include="ncnn\layer\binaryop.cpp" />
+    <ClCompile Include="ncnn\layer\bnll.cpp" />
+    <ClCompile Include="ncnn\layer\cast.cpp" />
+    <ClCompile Include="ncnn\layer\clip.cpp" />
+    <ClCompile Include="ncnn\layer\concat.cpp" />
+    <ClCompile Include="ncnn\layer\convolution.cpp" />
+    <ClCompile Include="ncnn\layer\convolution1d.cpp" />
+    <ClCompile Include="ncnn\layer\convolutiondepthwise.cpp" />
+    <ClCompile Include="ncnn\layer\crop.cpp" />
+    <ClCompile Include="ncnn\layer\deconvolution.cpp" />
+    <ClCompile Include="ncnn\layer\deconvolutiondepthwise.cpp" />
+    <ClCompile Include="ncnn\layer\deepcopy.cpp" />
+    <ClCompile Include="ncnn\layer\dequantize.cpp" />
+    <ClCompile Include="ncnn\layer\detectionoutput.cpp" />
+    <ClCompile Include="ncnn\layer\dropout.cpp" />
+    <ClCompile Include="ncnn\layer\eltwise.cpp" />
+    <ClCompile Include="ncnn\layer\elu.cpp" />
+    <ClCompile Include="ncnn\layer\embed.cpp" />
+    <ClCompile Include="ncnn\layer\exp.cpp" />
+    <ClCompile Include="ncnn\layer\expanddims.cpp" />
+    <ClCompile Include="ncnn\layer\flatten.cpp" />
+    <ClCompile Include="ncnn\layer\gelu.cpp" />
+    <ClCompile Include="ncnn\layer\gemm.cpp" />
+    <ClCompile Include="ncnn\layer\groupnorm.cpp" />
+    <ClCompile Include="ncnn\layer\gru.cpp" />
+    <ClCompile Include="ncnn\layer\hardsigmoid.cpp" />
+    <ClCompile Include="ncnn\layer\hardswish.cpp" />
+    <ClCompile Include="ncnn\layer\innerproduct.cpp" />
+    <ClCompile Include="ncnn\layer\input.cpp" />
+    <ClCompile Include="ncnn\layer\instancenorm.cpp" />
+    <ClCompile Include="ncnn\layer\interp.cpp" />
+    <ClCompile Include="ncnn\layer\layernorm.cpp" />
+    <ClCompile Include="ncnn\layer\log.cpp" />
+    <ClCompile Include="ncnn\layer\lrn.cpp" />
+    <ClCompile Include="ncnn\layer\lstm.cpp" />
+    <ClCompile Include="ncnn\layer\memorydata.cpp" />
+    <ClCompile Include="ncnn\layer\mish.cpp" />
+    <ClCompile Include="ncnn\layer\multiheadattention.cpp" />
+    <ClCompile Include="ncnn\layer\mvn.cpp" />
+    <ClCompile Include="ncnn\layer\noop.cpp" />
+    <ClCompile Include="ncnn\layer\normalize.cpp" />
+    <ClCompile Include="ncnn\layer\packing.cpp" />
+    <ClCompile Include="ncnn\layer\padding.cpp" />
+    <ClCompile Include="ncnn\layer\permute.cpp" />
+    <ClCompile Include="ncnn\layer\pixelshuffle.cpp" />
+    <ClCompile Include="ncnn\layer\pooling.cpp" />
+    <ClCompile Include="ncnn\layer\pooling1d.cpp" />
+    <ClCompile Include="ncnn\layer\power.cpp" />
+    <ClCompile Include="ncnn\layer\prelu.cpp" />
+    <ClCompile Include="ncnn\layer\priorbox.cpp" />
+    <ClCompile Include="ncnn\layer\proposal.cpp" />
+    <ClCompile Include="ncnn\layer\psroipooling.cpp" />
+    <ClCompile Include="ncnn\layer\quantize.cpp" />
+    <ClCompile Include="ncnn\layer\reduction.cpp" />
+    <ClCompile Include="ncnn\layer\relu.cpp" />
+    <ClCompile Include="ncnn\layer\reorg.cpp" />
+    <ClCompile Include="ncnn\layer\requantize.cpp" />
+    <ClCompile Include="ncnn\layer\reshape.cpp" />
+    <ClCompile Include="ncnn\layer\rnn.cpp" />
+    <ClCompile Include="ncnn\layer\roialign.cpp" />
+    <ClCompile Include="ncnn\layer\roipooling.cpp" />
+    <ClCompile Include="ncnn\layer\scale.cpp" />
+    <ClCompile Include="ncnn\layer\selu.cpp" />
+    <ClCompile Include="ncnn\layer\shufflechannel.cpp" />
+    <ClCompile Include="ncnn\layer\sigmoid.cpp" />
+    <ClCompile Include="ncnn\layer\slice.cpp" />
+    <ClCompile Include="ncnn\layer\softmax.cpp" />
+    <ClCompile Include="ncnn\layer\softplus.cpp" />
+    <ClCompile Include="ncnn\layer\split.cpp" />
+    <ClCompile Include="ncnn\layer\spp.cpp" />
+    <ClCompile Include="ncnn\layer\squeeze.cpp" />
+    <ClCompile Include="ncnn\layer\statisticspooling.cpp" />
+    <ClCompile Include="ncnn\layer\swish.cpp" />
+    <ClCompile Include="ncnn\layer\tanh.cpp" />
+    <ClCompile Include="ncnn\layer\threshold.cpp" />
+    <ClCompile Include="ncnn\layer\tile.cpp" />
+    <ClCompile Include="ncnn\layer\unaryop.cpp" />
+    <ClCompile Include="ncnn\layer\x86\batchnorm_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\batchnorm_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\bias_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\bias_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\binaryop_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\binaryop_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\cast_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\cast_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\clip_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\clip_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\concat_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\concat_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\convolutiondepthwise_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\convolutiondepthwise_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\convolution_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\convolution_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\crop_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\crop_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\dequantize_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\dequantize_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\dropout_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\dropout_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\eltwise_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\eltwise_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\flatten_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\flatten_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\hardsigmoid_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\hardsigmoid_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\hardswish_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\hardswish_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\innerproduct_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\innerproduct_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\lrn_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\lrn_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\lstm_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\lstm_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\mish_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\mish_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\packing_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\packing_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\padding_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\padding_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\pooling_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\pooling_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\prelu_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\prelu_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\quantize_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\quantize_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\relu_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\relu_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\requantize_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\requantize_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\reshape_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\reshape_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\roialign_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\roialign_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\scale_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\scale_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\sigmoid_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\sigmoid_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\slice_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\slice_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\swish_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\swish_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\tanh_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\tanh_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\x86\yolov3detectionoutput_x86.cpp" />
+    <ClCompile Include="ncnn\layer\x86\yolov3detectionoutput_x86_avx2.cpp" />
+    <ClCompile Include="ncnn\layer\yolodetectionoutput.cpp" />
+    <ClCompile Include="ncnn\layer\yolov3detectionoutput.cpp" />
+    <ClCompile Include="ncnn\mat.cpp" />
+    <ClCompile Include="ncnn\mat_pixel.cpp" />
+    <ClCompile Include="ncnn\mat_pixel_affine.cpp" />
+    <ClCompile Include="ncnn\mat_pixel_android.cpp" />
+    <ClCompile Include="ncnn\mat_pixel_drawing.cpp" />
+    <ClCompile Include="ncnn\mat_pixel_resize.cpp" />
+    <ClCompile Include="ncnn\mat_pixel_rotate.cpp" />
+    <ClCompile Include="ncnn\modelbin.cpp" />
+    <ClCompile Include="ncnn\net.cpp" />
+    <ClCompile Include="ncnn\option.cpp" />
+    <ClCompile Include="ncnn\paramdict.cpp" />
+    <ClCompile Include="ncnn\pipeline.cpp" />
+    <ClCompile Include="ncnn\pipelinecache.cpp" />
+    <ClCompile Include="ncnn\simpleocv.cpp" />
+    <ClCompile Include="ncnn\simpleomp.cpp" />
+    <ClCompile Include="ncnn\simplestl.cpp" />
+    <ClCompile Include="ncnn_aka.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ncnn\allocator.h" />
+    <ClInclude Include="ncnn\benchmark.h" />
+    <ClInclude Include="ncnn\blob.h" />
+    <ClInclude Include="ncnn\command.h" />
+    <ClInclude Include="ncnn\cpu.h" />
+    <ClInclude Include="ncnn\c_api.h" />
+    <ClInclude Include="ncnn\datareader.h" />
+    <ClInclude Include="ncnn\gpu.h" />
+    <ClInclude Include="ncnn\layer.h" />
+    <ClInclude Include="ncnn\layer\absval.h" />
+    <ClInclude Include="ncnn\layer\argmax.h" />
+    <ClInclude Include="ncnn\layer\batchnorm.h" />
+    <ClInclude Include="ncnn\layer\bias.h" />
+    <ClInclude Include="ncnn\layer\binaryop.h" />
+    <ClInclude Include="ncnn\layer\bnll.h" />
+    <ClInclude Include="ncnn\layer\cast.h" />
+    <ClInclude Include="ncnn\layer\clip.h" />
+    <ClInclude Include="ncnn\layer\concat.h" />
+    <ClInclude Include="ncnn\layer\convolution.h" />
+    <ClInclude Include="ncnn\layer\convolution1d.h" />
+    <ClInclude Include="ncnn\layer\convolutiondepthwise.h" />
+    <ClInclude Include="ncnn\layer\crop.h" />
+    <ClInclude Include="ncnn\layer\deconvolution.h" />
+    <ClInclude Include="ncnn\layer\deconvolutiondepthwise.h" />
+    <ClInclude Include="ncnn\layer\deepcopy.h" />
+    <ClInclude Include="ncnn\layer\dequantize.h" />
+    <ClInclude Include="ncnn\layer\detectionoutput.h" />
+    <ClInclude Include="ncnn\layer\dropout.h" />
+    <ClInclude Include="ncnn\layer\eltwise.h" />
+    <ClInclude Include="ncnn\layer\elu.h" />
+    <ClInclude Include="ncnn\layer\embed.h" />
+    <ClInclude Include="ncnn\layer\exp.h" />
+    <ClInclude Include="ncnn\layer\expanddims.h" />
+    <ClInclude Include="ncnn\layer\flatten.h" />
+    <ClInclude Include="ncnn\layer\gelu.h" />
+    <ClInclude Include="ncnn\layer\gemm.h" />
+    <ClInclude Include="ncnn\layer\groupnorm.h" />
+    <ClInclude Include="ncnn\layer\gru.h" />
+    <ClInclude Include="ncnn\layer\hardsigmoid.h" />
+    <ClInclude Include="ncnn\layer\hardswish.h" />
+    <ClInclude Include="ncnn\layer\innerproduct.h" />
+    <ClInclude Include="ncnn\layer\input.h" />
+    <ClInclude Include="ncnn\layer\instancenorm.h" />
+    <ClInclude Include="ncnn\layer\interp.h" />
+    <ClInclude Include="ncnn\layer\layernorm.h" />
+    <ClInclude Include="ncnn\layer\log.h" />
+    <ClInclude Include="ncnn\layer\lrn.h" />
+    <ClInclude Include="ncnn\layer\lstm.h" />
+    <ClInclude Include="ncnn\layer\memorydata.h" />
+    <ClInclude Include="ncnn\layer\mish.h" />
+    <ClInclude Include="ncnn\layer\multiheadattention.h" />
+    <ClInclude Include="ncnn\layer\mvn.h" />
+    <ClInclude Include="ncnn\layer\noop.h" />
+    <ClInclude Include="ncnn\layer\normalize.h" />
+    <ClInclude Include="ncnn\layer\packing.h" />
+    <ClInclude Include="ncnn\layer\padding.h" />
+    <ClInclude Include="ncnn\layer\permute.h" />
+    <ClInclude Include="ncnn\layer\pixelshuffle.h" />
+    <ClInclude Include="ncnn\layer\pooling.h" />
+    <ClInclude Include="ncnn\layer\pooling1d.h" />
+    <ClInclude Include="ncnn\layer\power.h" />
+    <ClInclude Include="ncnn\layer\prelu.h" />
+    <ClInclude Include="ncnn\layer\priorbox.h" />
+    <ClInclude Include="ncnn\layer\proposal.h" />
+    <ClInclude Include="ncnn\layer\psroipooling.h" />
+    <ClInclude Include="ncnn\layer\quantize.h" />
+    <ClInclude Include="ncnn\layer\reduction.h" />
+    <ClInclude Include="ncnn\layer\relu.h" />
+    <ClInclude Include="ncnn\layer\reorg.h" />
+    <ClInclude Include="ncnn\layer\requantize.h" />
+    <ClInclude Include="ncnn\layer\reshape.h" />
+    <ClInclude Include="ncnn\layer\rnn.h" />
+    <ClInclude Include="ncnn\layer\roialign.h" />
+    <ClInclude Include="ncnn\layer\roipooling.h" />
+    <ClInclude Include="ncnn\layer\scale.h" />
+    <ClInclude Include="ncnn\layer\selu.h" />
+    <ClInclude Include="ncnn\layer\shufflechannel.h" />
+    <ClInclude Include="ncnn\layer\sigmoid.h" />
+    <ClInclude Include="ncnn\layer\slice.h" />
+    <ClInclude Include="ncnn\layer\softmax.h" />
+    <ClInclude Include="ncnn\layer\softplus.h" />
+    <ClInclude Include="ncnn\layer\split.h" />
+    <ClInclude Include="ncnn\layer\spp.h" />
+    <ClInclude Include="ncnn\layer\squeeze.h" />
+    <ClInclude Include="ncnn\layer\statisticspooling.h" />
+    <ClInclude Include="ncnn\layer\swish.h" />
+    <ClInclude Include="ncnn\layer\tanh.h" />
+    <ClInclude Include="ncnn\layer\threshold.h" />
+    <ClInclude Include="ncnn\layer\tile.h" />
+    <ClInclude Include="ncnn\layer\unaryop.h" />
+    <ClInclude Include="ncnn\layer\x86\avx_mathfun.h" />
+    <ClInclude Include="ncnn\layer\x86\batchnorm_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\batchnorm_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\bias_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\bias_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\binaryop_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\binaryop_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\cast_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\cast_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\clip_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\clip_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\concat_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\concat_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\convolutiondepthwise_3x3.h" />
+    <ClInclude Include="ncnn\layer\x86\convolutiondepthwise_3x3_int8.h" />
+    <ClInclude Include="ncnn\layer\x86\convolutiondepthwise_3x3_pack8.h" />
+    <ClInclude Include="ncnn\layer\x86\convolutiondepthwise_3x3_pack8_fp16.h" />
+    <ClInclude Include="ncnn\layer\x86\convolutiondepthwise_5x5_pack8.h" />
+    <ClInclude Include="ncnn\layer\x86\convolutiondepthwise_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\convolutiondepthwise_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_1x1.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_1x1_int8.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_1x1_pack4.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_1x1_pack8.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_1x1_pack8to4_int8.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_1x1_pack8_fp16.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_2x2_pack8.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_2x2_pack8_fp16.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_3x3.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_3x3_int8.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_3x3_pack1to8.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_3x3_pack8.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_3x3_pack8to1.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_5x5.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_7x7.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_int8.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_pack1to4_int8.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_pack8to1_int8.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_pack8to4_int8.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_sgemm.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_sgemm_int8.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_sgemm_pack8to4_int8.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\convolution_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\crop_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\crop_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\dequantize_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\dequantize_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\dropout_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\dropout_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\eltwise_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\eltwise_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\flatten_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\flatten_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\hardsigmoid_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\hardsigmoid_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\hardswish_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\hardswish_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\innerproduct_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\innerproduct_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\lrn_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\lrn_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\lstm_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\lstm_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\mish_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\mish_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\packing_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\packing_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\padding_pack4.h" />
+    <ClInclude Include="ncnn\layer\x86\padding_pack8.h" />
+    <ClInclude Include="ncnn\layer\x86\padding_pack8_int8.h" />
+    <ClInclude Include="ncnn\layer\x86\padding_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\padding_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\pooling_2x2.h" />
+    <ClInclude Include="ncnn\layer\x86\pooling_2x2_pack8.h" />
+    <ClInclude Include="ncnn\layer\x86\pooling_3x3_pack8.h" />
+    <ClInclude Include="ncnn\layer\x86\pooling_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\pooling_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\prelu_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\prelu_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\quantize_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\quantize_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\relu_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\relu_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\requantize_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\requantize_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\reshape_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\reshape_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\roialign_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\roialign_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\scale_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\scale_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\sigmoid_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\sigmoid_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\slice_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\slice_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\sse_mathfun.h" />
+    <ClInclude Include="ncnn\layer\x86\swish_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\swish_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\tanh_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\tanh_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\x86\x86_activation.h" />
+    <ClInclude Include="ncnn\layer\x86\x86_usability.h" />
+    <ClInclude Include="ncnn\layer\x86\yolov3detectionoutput_x86.h" />
+    <ClInclude Include="ncnn\layer\x86\yolov3detectionoutput_x86_avx2.h" />
+    <ClInclude Include="ncnn\layer\yolodetectionoutput.h" />
+    <ClInclude Include="ncnn\layer\yolov3detectionoutput.h" />
+    <ClInclude Include="ncnn\layer_declaration.h" />
+    <ClInclude Include="ncnn\layer_registry.h" />
+    <ClInclude Include="ncnn\layer_shader_registry.h" />
+    <ClInclude Include="ncnn\layer_shader_spv_data.h" />
+    <ClInclude Include="ncnn\layer_shader_type.h" />
+    <ClInclude Include="ncnn\layer_shader_type_enum.h" />
+    <ClInclude Include="ncnn\layer_type.h" />
+    <ClInclude Include="ncnn\layer_type_enum.h" />
+    <ClInclude Include="ncnn\mat.h" />
+    <ClInclude Include="ncnn\mat_pixel_drawing_font.h" />
+    <ClInclude Include="ncnn\modelbin.h" />
+    <ClInclude Include="ncnn\ncnn_export.h" />
+    <ClInclude Include="ncnn\net.h" />
+    <ClInclude Include="ncnn\option.h" />
+    <ClInclude Include="ncnn\paramdict.h" />
+    <ClInclude Include="ncnn\pipeline.h" />
+    <ClInclude Include="ncnn\pipelinecache.h" />
+    <ClInclude Include="ncnn\platform.h" />
+    <ClInclude Include="ncnn\simpleocv.h" />
+    <ClInclude Include="ncnn\simpleomp.h" />
+    <ClInclude Include="ncnn\simplestl.h" />
+    <ClInclude Include="ncnn\stb_image.h" />
+    <ClInclude Include="ncnn\stb_image_write.h" />
+    <ClInclude Include="ncnn\vulkan_header_fix.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,4 @@
+*/.vs/
+.ipynb_checkpoints/
+*/x64/*
+*.bin

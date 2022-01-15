@@ -1,0 +1,975 @@
+﻿  allocator.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\platform.h(42,10): fatal error C1083: 无法打开包括文件: “ncnn_export.h”: No such file or directory
+  benchmark.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\platform.h(42,10): fatal error C1083: 无法打开包括文件: “ncnn_export.h”: No such file or directory
+  command.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\platform.h(42,10): fatal error C1083: 无法打开包括文件: “ncnn_export.h”: No such file or directory
+  c_api.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\platform.h(42,10): fatal error C1083: 无法打开包括文件: “ncnn_export.h”: No such file or directory
+  datareader.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\platform.h(42,10): fatal error C1083: 无法打开包括文件: “ncnn_export.h”: No such file or directory
+  gpu.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\platform.h(42,10): fatal error C1083: 无法打开包括文件: “ncnn_export.h”: No such file or directory
+  binaryop.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.h(31,104): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.h(31,104): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.h(33,67): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.h(33,67): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(27,41): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(27,41): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(29,15): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(30,19): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(31,9): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(46,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(46,70): error C2988: 不可识别的模板声明/定义
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(46,70): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(54,25): error C2039: "elemsize": 不是 "ncnn::Mat" 的成员
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(24): message : 参见“ncnn::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(68,52): error C3861: “opt”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(90,52): error C3861: “opt”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(112,55): error C3861: “opt”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(134,55): error C3861: “opt”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(156,52): error C3861: “opt”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(186,52): error C3861: “opt”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(215,55): error C3861: “opt”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(245,55): error C3861: “opt”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(272,48): error C3861: “opt”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(292,44): error C3861: “opt”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(365,51): error C3861: “opt”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(392,34): error C3861: “opt”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(409,38): error C3861: “opt”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(451,55): error C3861: “opt”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(474,44): error C3861: “opt”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(490,40): error C3861: “opt”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(507,51): error C3861: “opt”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(530,40): error C3861: “opt”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(554,35): error C3861: “opt”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(582,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(582,66): error C2988: 不可识别的模板声明/定义
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(582,66): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(677,102): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(677,102): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(685,78): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(688,78): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(691,78): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(694,78): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(697,78): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(700,78): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(703,78): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(706,79): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(709,79): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(714,65): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(714,65): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(717,76): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(720,76): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(723,76): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(726,76): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(729,76): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(732,76): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(735,76): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(738,77): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\binaryop.cpp(741,77): error C2065: “opt”: 未声明的标识符
+  cast.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.h(29,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.h(29,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(23,5): error C2065: “support_packing”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(26,37): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(26,37): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(28,17): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(29,15): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(51,70): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(51,70): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(63,35): error C2039: "elemsize": 不是 "ncnn::Mat" 的成员
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(24): message : 参见“ncnn::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(64,32): error C2039: "elempack": 不是 "ncnn::Mat" 的成员
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(24): message : 参见“ncnn::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(90,52): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(90,70): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(94,55): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(94,73): error C2661: “ncnn::Mat::create”: 没有重载函数接受 4 个参数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(98,65): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(98,83): error C2661: “ncnn::Mat::create”: 没有重载函数接受 5 个参数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(111,57): error C2440: “初始化”: 无法从“ncnn::Mat”转换为“unsigned short *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(111,36): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(115,29): error C3861: “float32_to_float16”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(125,63): error C2440: “初始化”: 无法从“const ncnn::Mat”转换为“const unsigned short *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(125,39): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(130,29): error C3861: “float16_to_float32”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(140,60): error C2440: “初始化”: 无法从“const ncnn::Mat”转换为“const signed char *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(140,36): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(156,57): error C2440: “初始化”: 无法从“ncnn::Mat”转换为“unsigned short *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(156,36): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(160,29): error C3861: “float32_to_bfloat16”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(170,63): error C2440: “初始化”: 无法从“const ncnn::Mat”转换为“const unsigned short *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(170,39): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\cast.cpp(175,29): error C3861: “bfloat16_to_float32”: 找不到标识符
+  clip.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\clip.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\clip.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\clip.h(29,67): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\clip.h(29,67): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\clip.cpp(27,37): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\clip.cpp(27,37): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\clip.cpp(29,11): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\clip.cpp(30,11): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\clip.cpp(35,61): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\clip.cpp(35,61): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+  convolution1d.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolution1d.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolution1d.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolution1d.h(29,42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolution1d.h(29,42): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolution1d.h(31,45): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolution1d.h(31,45): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolution1d.h(33,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolution1d.h(33,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolution1d.h(36,86): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolution1d.h(36,86): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolution1d.cpp(17,10): fatal error C1083: 无法打开包括文件: “layer_type.h”: No such file or directory
+  convolutiondepthwise.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolutiondepthwise.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolutiondepthwise.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolutiondepthwise.h(29,42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolutiondepthwise.h(29,42): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolutiondepthwise.h(31,45): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolutiondepthwise.h(31,45): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolutiondepthwise.h(33,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolutiondepthwise.h(33,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolutiondepthwise.h(36,86): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolutiondepthwise.h(36,86): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\convolutiondepthwise.cpp(17,10): fatal error C1083: 无法打开包括文件: “layer_type.h”: No such file or directory
+  deconvolutiondepthwise.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\deconvolutiondepthwise.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\deconvolutiondepthwise.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\deconvolutiondepthwise.h(29,42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\deconvolutiondepthwise.h(29,42): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\deconvolutiondepthwise.h(31,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\deconvolutiondepthwise.h(31,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\deconvolutiondepthwise.h(34,79): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\deconvolutiondepthwise.h(34,79): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\deconvolutiondepthwise.cpp(17,10): fatal error C1083: 无法打开包括文件: “layer_type.h”: No such file or directory
+  deepcopy.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\deepcopy.h(27,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\deepcopy.h(27,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\deepcopy.cpp(23,5): error C2065: “support_packing”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\deepcopy.cpp(26,74): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\deepcopy.cpp(26,74): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+  dequantize.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.h(29,42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.h(29,42): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.h(31,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.h(31,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(25,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(25,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(27,23): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(28,22): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(33,42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(33,42): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(35,18): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(41,21): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(49,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(49,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(57,40): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(61,40): error C2440: “初始化”: 无法从“const ncnn::Mat”转换为“const int *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(61,27): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(131,43): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(140,53): error C2059: 语法错误:“const”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(156,53): error C2059: 语法错误:“const”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(177,53): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(177,71): error C2661: “ncnn::Mat::create”: 没有重载函数接受 4 个参数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(186,59): error C2440: “初始化”: 无法从“const ncnn::Mat”转换为“const int *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(186,35): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(202,59): error C2440: “初始化”: 无法从“const ncnn::Mat”转换为“const int *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\dequantize.cpp(202,35): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  detectionoutput.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\detectionoutput.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\detectionoutput.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\detectionoutput.h(29,104): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\detectionoutput.h(29,104): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\detectionoutput.cpp(27,48): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\detectionoutput.cpp(27,48): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\detectionoutput.cpp(29,17): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\detectionoutput.cpp(30,21): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\detectionoutput.cpp(31,17): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\detectionoutput.cpp(32,18): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\detectionoutput.cpp(33,28): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\detectionoutput.cpp(34,20): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\detectionoutput.cpp(35,20): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\detectionoutput.cpp(36,20): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\detectionoutput.cpp(37,20): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\detectionoutput.cpp(146,109): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\detectionoutput.cpp(146,109): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\detectionoutput.cpp(161,37): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\detectionoutput.cpp(283,42): error C2065: “opt”: 未声明的标识符
+  expanddims.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\expanddims.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\expanddims.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\expanddims.h(29,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\expanddims.h(29,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\expanddims.cpp(25,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\expanddims.cpp(25,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\expanddims.cpp(27,16): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\expanddims.cpp(28,16): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\expanddims.cpp(29,16): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\expanddims.cpp(30,12): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\expanddims.cpp(35,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\expanddims.cpp(35,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\expanddims.cpp(53,35): error C2440: “初始化”: 无法从“const ncnn::Mat”转换为“const int *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\expanddims.cpp(53,29): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\expanddims.cpp(89,53): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\expanddims.cpp(93,50): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\expanddims.cpp(97,50): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\expanddims.cpp(105,53): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\expanddims.cpp(109,53): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\expanddims.cpp(113,53): error C2065: “opt”: 未声明的标识符
+  gelu.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gelu.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gelu.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gelu.h(29,67): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gelu.h(29,67): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gelu.cpp(27,37): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gelu.cpp(27,37): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gelu.cpp(29,17): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gelu.cpp(34,61): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gelu.cpp(34,61): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+  gemm.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gemm.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gemm.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gemm.h(29,104): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gemm.h(29,104): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gemm.cpp(25,37): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gemm.cpp(25,37): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gemm.cpp(27,13): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gemm.cpp(28,12): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gemm.cpp(29,14): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gemm.cpp(30,14): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gemm.cpp(35,98): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gemm.cpp(35,98): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gemm.cpp(40,26): error C2039: "elemsize": 不是 "ncnn::Mat" 的成员
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(24): message : 参见“ncnn::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gemm.cpp(50,40): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gemm.cpp(50,63): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gemm.cpp(66,40): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gemm.cpp(66,63): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gemm.cpp(125,37): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gemm.cpp(125,55): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  groupnorm.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\groupnorm.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\groupnorm.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\groupnorm.h(29,42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\groupnorm.h(29,42): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\groupnorm.h(31,67): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\groupnorm.h(31,67): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\groupnorm.cpp(27,42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\groupnorm.cpp(27,42): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\groupnorm.cpp(29,13): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\groupnorm.cpp(30,16): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\groupnorm.cpp(31,11): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\groupnorm.cpp(32,14): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\groupnorm.cpp(37,41): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\groupnorm.cpp(37,41): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\groupnorm.cpp(42,18): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\groupnorm.cpp(46,17): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\groupnorm.cpp(53,66): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\groupnorm.cpp(53,66): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\groupnorm.cpp(66,49): error C2039: "channel_range": 不是 "ncnn::Mat" 的成员
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(24): message : 参见“ncnn::Mat”的声明
+  gru.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.h(29,42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.h(29,42): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.h(31,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.h(31,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.h(33,104): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.h(33,104): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(27,36): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(27,36): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(29,18): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(30,24): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(31,17): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(37,35): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(37,35): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(44,22): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(48,19): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(52,22): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(59,162): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(59,162): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(67,34): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(111,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(112,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(140,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(165,69): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(165,69): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(172,32): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(177,57): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(184,143): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(191,49): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(195,49): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(199,144): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(205,144): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(224,97): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(224,97): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(228,55): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(236,42): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(236,60): error C2660: “ncnn::Mat::clone”: 函数不接受 1 个参数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(318,17): message : 参见“ncnn::Mat::clone”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(238,40): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\gru.cpp(245,149): error C2065: “opt”: 未声明的标识符
+  正在生成代码...
+  正在编译...
+  hardsigmoid.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\hardsigmoid.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\hardsigmoid.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\hardsigmoid.h(29,67): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\hardsigmoid.h(29,67): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\hardsigmoid.cpp(25,44): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\hardsigmoid.cpp(25,44): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\hardsigmoid.cpp(29,13): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\hardsigmoid.cpp(30,12): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\hardsigmoid.cpp(37,68): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\hardsigmoid.cpp(37,68): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+  hardswish.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\hardswish.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\hardswish.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\hardswish.h(29,67): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\hardswish.h(29,67): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\hardswish.cpp(25,42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\hardswish.cpp(25,42): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\hardswish.cpp(29,13): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\hardswish.cpp(30,12): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\hardswish.cpp(37,66): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\hardswish.cpp(37,66): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+  instancenorm.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\instancenorm.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\instancenorm.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\instancenorm.h(29,42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\instancenorm.h(29,42): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\instancenorm.h(31,67): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\instancenorm.h(31,67): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\instancenorm.cpp(27,45): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\instancenorm.cpp(27,45): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\instancenorm.cpp(29,16): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\instancenorm.cpp(30,11): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\instancenorm.cpp(31,14): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\instancenorm.cpp(36,44): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\instancenorm.cpp(36,44): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\instancenorm.cpp(41,18): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\instancenorm.cpp(45,17): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\instancenorm.cpp(52,69): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\instancenorm.cpp(52,69): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+  interp.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.h(29,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.h(29,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.h(31,104): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.h(31,104): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.cpp(25,39): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.cpp(25,39): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.cpp(27,19): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.cpp(28,20): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.cpp(29,19): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.cpp(30,21): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.cpp(31,20): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.cpp(32,27): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.cpp(33,20): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.cpp(37,9): error C3861: “NCNN_LOGE”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.cpp(417,72): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.cpp(417,72): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.cpp(445,48): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.cpp(452,100): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.cpp(452,100): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.cpp(461,35): error C2039: "elemsize": 不是 "ncnn::Mat" 的成员
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(24): message : 参见“ncnn::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.cpp(468,50): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.cpp(468,68): error C2661: “ncnn::Mat::create”: 没有重载函数接受 4 个参数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.cpp(489,53): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\interp.cpp(489,71): error C2661: “ncnn::Mat::create”: 没有重载函数接受 4 个参数
+  layernorm.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\layernorm.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\layernorm.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\layernorm.h(29,42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\layernorm.h(29,42): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\layernorm.h(31,67): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\layernorm.h(31,67): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\layernorm.cpp(27,42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\layernorm.cpp(27,42): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\layernorm.cpp(29,19): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\layernorm.cpp(30,11): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\layernorm.cpp(31,14): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\layernorm.cpp(36,41): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\layernorm.cpp(36,41): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\layernorm.cpp(41,18): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\layernorm.cpp(45,17): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\layernorm.cpp(52,66): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\layernorm.cpp(52,66): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+  mish.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\mish.h(27,67): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\mish.h(27,67): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\mish.cpp(27,61): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\mish.cpp(27,61): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+  multiheadattention.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.h(29,42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.h(29,42): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.h(31,104): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.h(31,104): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(25,51): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(25,51): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(27,17): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(28,16): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(29,24): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(34,50): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(34,50): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(36,21): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(40,19): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(44,21): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(48,19): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(52,21): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(56,19): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(60,23): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(64,21): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(71,112): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(71,112): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(81,44): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(85,54): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(85,78): error C2664: “ncnn::Mat::Mat(int,int,int,float *)”: 无法将参数 4 从“unsigned int”转换为“float *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(85,50): message : 从整型强制转换为指针类型要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(271,13): message : 参见“ncnn::Mat::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(86,54): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(86,78): error C2664: “ncnn::Mat::Mat(int,int,int,float *)”: 无法将参数 4 从“unsigned int”转换为“float *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(86,50): message : 从整型强制转换为指针类型要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(271,13): message : 参见“ncnn::Mat::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(87,54): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(87,78): error C2664: “ncnn::Mat::Mat(int,int,int,float *)”: 无法将参数 4 从“unsigned int”转换为“float *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(87,50): message : 从整型强制转换为指针类型要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(271,13): message : 参见“ncnn::Mat::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(89,43): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(89,67): error C2664: “ncnn::Mat::Mat(int,int,int,float *)”: 无法将参数 4 从“unsigned int”转换为“float *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(89,39): message : 从整型强制转换为指针类型要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(271,13): message : 参见“ncnn::Mat::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(91,56): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(91,80): error C2664: “ncnn::Mat::Mat(int,int,int,float *)”: 无法将参数 4 从“unsigned int”转换为“float *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(91,52): message : 从整型强制转换为指针类型要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(271,13): message : 参见“ncnn::Mat::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(93,51): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\multiheadattention.cpp(93,45): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+  noop.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\noop.h(27,81): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\noop.h(27,81): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\noop.cpp(23,5): error C2065: “support_vulkan”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\noop.cpp(24,5): error C2065: “support_packing”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\noop.cpp(25,5): error C2065: “support_fp16_storage”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\noop.cpp(25,57): error C3861: “cpu_support_riscv_zfh”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\noop.cpp(26,5): error C2065: “support_bf16_storage”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\noop.cpp(27,5): error C2065: “support_image_storage”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\noop.cpp(30,79): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\noop.cpp(30,79): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+  normalize.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.h(29,42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.h(29,42): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.h(31,67): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.h(31,67): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.cpp(27,42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.cpp(27,42): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.cpp(29,22): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.cpp(30,22): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.cpp(31,22): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.cpp(32,11): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.cpp(33,16): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.cpp(34,23): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.cpp(39,41): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.cpp(39,41): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.cpp(41,18): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.cpp(48,66): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.cpp(48,66): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.cpp(53,39): error C2039: "elemsize": 不是 "ncnn::Mat" 的成员
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(24): message : 参见“ncnn::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.cpp(60,52): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.cpp(60,75): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.cpp(173,48): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\normalize.cpp(173,71): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  packing.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.h(29,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.h(29,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(25,40): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(25,40): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(27,20): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(28,19): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(30,22): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(31,20): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(33,25): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(34,23): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(39,73): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(39,73): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(41,32): error C2039: "elempack": 不是 "ncnn::Mat" 的成员
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(24): message : 参见“ncnn::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(53,35): error C2039: "elemsize": 不是 "ncnn::Mat" 的成员
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(24): message : 参见“ncnn::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(82,22): error C2039: "elemsize": 不是 "ncnn::Mat" 的成员
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(24): message : 参见“ncnn::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(83,22): error C2039: "elempack": 不是 "ncnn::Mat" 的成员
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(24): message : 参见“ncnn::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(90,59): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(90,77): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(105,62): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(105,80): error C2661: “ncnn::Mat::create”: 没有重载函数接受 4 个参数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(112,62): error C2440: “类型强制转换”: 无法从“ncnn::Mat”转换为“unsigned char *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(112,37): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(126,82): error C2440: “类型强制转换”: 无法从“const ncnn::Mat”转换为“const unsigned char *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(126,48): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(143,65): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(143,83): error C2661: “ncnn::Mat::create”: 没有重载函数接受 5 个参数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(154,61): error C2440: “类型强制转换”: 无法从“ncnn::Mat”转换为“unsigned char *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(154,41): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(169,76): error C2440: “类型强制转换”: 无法从“const ncnn::Mat”转换为“const unsigned char *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\packing.cpp(169,52): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  padding.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.h(29,42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.h(29,42): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.h(31,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.h(31,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.h(33,104): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.h(33,104): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(25,40): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(25,40): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(27,11): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(28,14): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(29,12): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(30,13): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(31,12): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(32,13): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(33,33): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(34,13): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(35,14): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(49,39): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(49,39): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(53,32): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(294,73): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(294,73): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(306,35): error C2039: "elemsize": 不是 "ncnn::Mat" 的成员
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(24): message : 参见“ncnn::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(312,41): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(312,59): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(319,90): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(319,113): error C3861: “float32_to_float16”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(319,141): error C3861: “float32_to_bfloat16”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(319,13): error C2672: “copy_make_border_image”: 未找到匹配的重载函数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(319,167): error C2780: “void ncnn::copy_make_border_image(const ncnn::Mat &,ncnn::Mat &,int,int,int,T)”: 应输入 6 个参数，却提供了 5 个
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(60): message : 参见“ncnn::copy_make_border_image”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(330,47): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(330,65): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(337,92): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(337,115): error C3861: “float32_to_float16”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(337,143): error C3861: “float32_to_bfloat16”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(337,13): error C2672: “copy_make_border_image”: 未找到匹配的重载函数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(337,169): error C2780: “void ncnn::copy_make_border_image(const ncnn::Mat &,ncnn::Mat &,int,int,int,T)”: 应输入 6 个参数，却提供了 5 个
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(60): message : 参见“ncnn::copy_make_border_image”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(348,53): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(348,71): error C2661: “ncnn::Mat::create”: 没有重载函数接受 4 个参数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(368,34): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(368,57): error C3861: “float32_to_float16”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(368,89): error C3861: “float32_to_bfloat16”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(393,89): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(393,112): error C3861: “float32_to_float16”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(393,144): error C3861: “float32_to_bfloat16”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(393,21): error C2672: “copy_make_border_image”: 未找到匹配的重载函数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(393,174): error C2780: “void ncnn::copy_make_border_image(const ncnn::Mat &,ncnn::Mat &,int,int,int,T)”: 应输入 6 个参数，却提供了 5 个
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(60): message : 参见“ncnn::copy_make_border_image”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(404,101): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(404,101): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(418,47): error C2440: “初始化”: 无法从“const ncnn::Mat”转换为“const int *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(418,31): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(437,35): error C2039: "elemsize": 不是 "ncnn::Mat" 的成员
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(24): message : 参见“ncnn::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(443,41): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(443,59): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(450,91): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(450,114): error C3861: “float32_to_float16”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(450,142): error C3861: “float32_to_bfloat16”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(450,13): error C2672: “copy_make_border_image”: 未找到匹配的重载函数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(450,168): error C2780: “void ncnn::copy_make_border_image(const ncnn::Mat &,ncnn::Mat &,int,int,int,T)”: 应输入 6 个参数，却提供了 5 个
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(60): message : 参见“ncnn::copy_make_border_image”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(461,47): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(461,65): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(468,94): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(468,117): error C3861: “float32_to_float16”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(468,145): error C3861: “float32_to_bfloat16”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(468,13): error C2672: “copy_make_border_image”: 未找到匹配的重载函数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(468,171): error C2780: “void ncnn::copy_make_border_image(const ncnn::Mat &,ncnn::Mat &,int,int,int,T)”: 应输入 6 个参数，却提供了 5 个
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(60): message : 参见“ncnn::copy_make_border_image”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(479,53): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(479,71): error C2661: “ncnn::Mat::create”: 没有重载函数接受 4 个参数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(498,34): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(498,57): error C3861: “float32_to_float16”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(498,89): error C3861: “float32_to_bfloat16”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(524,89): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(524,112): error C3861: “float32_to_float16”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(524,144): error C3861: “float32_to_bfloat16”: 找不到标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(524,21): error C2672: “copy_make_border_image”: 未找到匹配的重载函数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(524,174): error C2780: “void ncnn::copy_make_border_image(const ncnn::Mat &,ncnn::Mat &,int,int,int,T)”: 应输入 6 个参数，却提供了 5 个
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\padding.cpp(60): message : 参见“ncnn::copy_make_border_image”的声明
+  permute.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.h(29,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.h(29,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.cpp(25,40): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.cpp(25,40): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.cpp(27,18): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.cpp(32,73): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.cpp(32,73): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.cpp(37,35): error C2039: "elemsize": 不是 "ncnn::Mat" 的成员
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(24): message : 参见“ncnn::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.cpp(53,45): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.cpp(53,63): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.cpp(86,51): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.cpp(86,69): error C2661: “ncnn::Mat::create”: 没有重载函数接受 4 个参数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.cpp(107,51): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.cpp(107,69): error C2661: “ncnn::Mat::create”: 没有重载函数接受 4 个参数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.cpp(129,51): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.cpp(129,69): error C2661: “ncnn::Mat::create”: 没有重载函数接受 4 个参数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.cpp(151,51): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.cpp(151,69): error C2661: “ncnn::Mat::create”: 没有重载函数接受 4 个参数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.cpp(173,51): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\permute.cpp(173,69): error C2661: “ncnn::Mat::create”: 没有重载函数接受 4 个参数
+  pixelshuffle.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\pixelshuffle.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\pixelshuffle.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\pixelshuffle.h(29,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\pixelshuffle.h(29,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\pixelshuffle.cpp(25,45): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\pixelshuffle.cpp(25,45): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\pixelshuffle.cpp(27,22): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\pixelshuffle.cpp(28,12): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\pixelshuffle.cpp(33,78): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\pixelshuffle.cpp(33,78): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\pixelshuffle.cpp(38,35): error C2039: "elemsize": 不是 "ncnn::Mat" 的成员
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(24): message : 参见“ncnn::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\pixelshuffle.cpp(44,49): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\pixelshuffle.cpp(44,67): error C2661: “ncnn::Mat::create”: 没有重载函数接受 4 个参数
+  pooling1d.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\pooling1d.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\pooling1d.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\pooling1d.h(29,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\pooling1d.h(29,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\pooling1d.h(38,86): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\pooling1d.h(38,86): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\pooling1d.cpp(17,10): fatal error C1083: 无法打开包括文件: “layer_type.h”: No such file or directory
+  priorbox.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.h(29,104): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.h(29,104): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(27,41): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(27,41): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(29,17): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(30,17): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(31,21): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(32,20): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(33,20): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(34,20): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(35,20): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(36,12): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(37,12): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(38,19): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(39,20): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(40,18): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(41,19): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(42,14): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(43,24): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(44,26): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(49,102): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(49,102): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(70,52): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\priorbox.cpp(160,51): error C2065: “opt”: 未声明的标识符
+  psroipooling.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\psroipooling.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\psroipooling.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\psroipooling.h(29,104): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\psroipooling.h(29,104): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\psroipooling.cpp(27,45): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\psroipooling.cpp(27,45): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\psroipooling.cpp(29,20): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\psroipooling.cpp(30,21): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\psroipooling.cpp(31,21): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\psroipooling.cpp(32,18): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\psroipooling.cpp(37,106): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\psroipooling.cpp(37,106): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\psroipooling.cpp(42,35): error C2039: "elemsize": 不是 "ncnn::Mat" 的成员
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(24): message : 参见“ncnn::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\psroipooling.cpp(54,72): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\psroipooling.cpp(54,90): error C2661: “ncnn::Mat::create”: 没有重载函数接受 4 个参数
+  quantize.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.h(29,42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.h(29,42): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.h(31,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.h(31,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.cpp(27,41): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.cpp(27,41): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.cpp(29,23): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.cpp(34,40): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.cpp(34,40): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.cpp(36,18): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.cpp(51,74): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.cpp(51,74): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.cpp(59,40): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.cpp(64,39): error C2440: “初始化”: 无法从“ncnn::Mat”转换为“signed char *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.cpp(64,29): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.cpp(91,43): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.cpp(99,60): error C2062: 意外的类型“signed char”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.cpp(117,53): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.cpp(117,71): error C2661: “ncnn::Mat::create”: 没有重载函数接受 4 个参数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.cpp(125,54): error C2440: “初始化”: 无法从“ncnn::Mat”转换为“signed char *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\quantize.cpp(125,33): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  reorg.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\reorg.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\reorg.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\reorg.h(29,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\reorg.h(29,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\reorg.cpp(25,38): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\reorg.cpp(25,38): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\reorg.cpp(27,14): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\reorg.cpp(28,12): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\reorg.cpp(33,71): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\reorg.cpp(33,71): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\reorg.cpp(38,35): error C2039: "elemsize": 不是 "ncnn::Mat" 的成员
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(24): message : 参见“ncnn::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\reorg.cpp(44,49): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\reorg.cpp(44,67): error C2661: “ncnn::Mat::create”: 没有重载函数接受 4 个参数
+  requantize.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.h(28,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.h(28,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.h(30,42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.h(30,42): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.h(32,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.h(32,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(34,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(52,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(56,15): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(68,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(68,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(75,26): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(76,27): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(77,22): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(78,23): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(79,25): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(84,42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(84,42): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(86,21): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(90,22): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(96,21): error C2065: “mb”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(104,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(104,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(112,40): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(116,40): error C2440: “初始化”: 无法从“const ncnn::Mat”转换为“const int *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(116,27): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(117,36): error C2440: “初始化”: 无法从“ncnn::Mat”转换为“signed char *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(117,26): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(261,43): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(270,53): error C2059: 语法错误:“const”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(271,60): error C2062: 意外的类型“signed char”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(288,53): error C2059: 语法错误:“const”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(289,60): error C2062: 意外的类型“signed char”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(311,53): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(311,71): error C2661: “ncnn::Mat::create”: 没有重载函数接受 4 个参数
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(320,59): error C2440: “初始化”: 无法从“const ncnn::Mat”转换为“const int *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(320,35): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(321,55): error C2440: “初始化”: 无法从“ncnn::Mat”转换为“signed char *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(321,34): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(338,59): error C2440: “初始化”: 无法从“const ncnn::Mat”转换为“const int *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(338,35): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(339,55): error C2440: “初始化”: 无法从“ncnn::Mat”转换为“signed char *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\requantize.cpp(339,34): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  roialign.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\roialign.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\roialign.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\roialign.h(29,104): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\roialign.h(29,104): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\roialign.cpp(26,41): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\roialign.cpp(26,41): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\roialign.cpp(28,20): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\roialign.cpp(29,21): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\roialign.cpp(30,21): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\roialign.cpp(31,22): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\roialign.cpp(32,15): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\roialign.cpp(33,15): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\roialign.cpp(78,102): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\roialign.cpp(78,102): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\roialign.cpp(83,35): error C2039: "elemsize": 不是 "ncnn::Mat" 的成员
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(24): message : 参见“ncnn::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\roialign.cpp(89,70): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\roialign.cpp(89,88): error C2661: “ncnn::Mat::create”: 没有重载函数接受 4 个参数
+  正在生成代码...
+  正在编译...
+  selu.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\selu.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\selu.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\selu.h(29,67): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\selu.h(29,67): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\selu.cpp(27,37): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\selu.cpp(27,37): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\selu.cpp(29,13): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\selu.cpp(30,14): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\selu.cpp(35,61): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\selu.cpp(35,61): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+  shufflechannel.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\shufflechannel.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\shufflechannel.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\shufflechannel.h(29,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\shufflechannel.h(29,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\shufflechannel.cpp(25,47): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\shufflechannel.cpp(25,47): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\shufflechannel.cpp(27,13): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\shufflechannel.cpp(28,15): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\shufflechannel.cpp(33,80): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\shufflechannel.cpp(33,80): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\shufflechannel.cpp(38,35): error C2039: "elemsize": 不是 "ncnn::Mat" 的成员
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(24): message : 参见“ncnn::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\shufflechannel.cpp(49,47): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\shufflechannel.cpp(49,65): error C2661: “ncnn::Mat::create”: 没有重载函数接受 4 个参数
+  softplus.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\softplus.h(27,67): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\softplus.h(27,67): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\softplus.cpp(27,65): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\softplus.cpp(27,65): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\softplus.cpp(40,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  squeeze.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.h(29,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.h(29,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(25,40): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(25,40): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(27,17): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(28,17): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(29,17): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(30,12): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(35,73): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(35,73): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(54,35): error C2440: “初始化”: 无法从“const ncnn::Mat”转换为“const int *”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(54,29): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(94,47): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(102,47): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(106,47): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(110,47): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(118,47): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(122,54): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(126,47): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(130,47): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(134,57): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(138,57): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\squeeze.cpp(142,50): error C2065: “opt”: 未声明的标识符
+  statisticspooling.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\statisticspooling.h(25,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\statisticspooling.h(25,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\statisticspooling.h(27,76): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\statisticspooling.h(27,76): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\statisticspooling.cpp(27,50): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\statisticspooling.cpp(27,50): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\statisticspooling.cpp(29,22): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\statisticspooling.cpp(34,83): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\statisticspooling.cpp(34,83): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\statisticspooling.cpp(40,35): error C2039: "elemsize": 不是 "ncnn::Mat" 的成员
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn_aka\ncnn_aka\ncnn\mat.h(24): message : 参见“ncnn::Mat”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\statisticspooling.cpp(48,45): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\statisticspooling.cpp(48,63): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\statisticspooling.cpp(71,61): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\statisticspooling.cpp(73,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  swish.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\swish.h(27,67): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\swish.h(27,67): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\swish.cpp(27,62): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\swish.cpp(27,62): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+  unaryop.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.h(29,67): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.h(29,67): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(27,40): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(27,40): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(29,15): error C2065: “pd”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(35,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(35,49): error C2988: 不可识别的模板声明/定义
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(35,49): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(186,64): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(186,64): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(189,64): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(192,64): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(195,66): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(198,65): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(201,67): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(204,65): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(207,66): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(210,64): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(213,64): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(216,64): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(219,64): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(222,64): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(225,65): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(228,65): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(231,65): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(234,71): error C2065: “opt”: 未声明的标识符
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\unaryop.cpp(237,65): error C2065: “opt”: 未声明的标识符
+  yolodetectionoutput.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\yolodetectionoutput.h(27,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\yolodetectionoutput.h(27,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\yolodetectionoutput.h(29,45): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\yolodetectionoutput.h(29,45): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\yolodetectionoutput.h(30,46): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\yolodetectionoutput.h(30,46): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\yolodetectionoutput.h(32,81): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\yolodetectionoutput.h(32,81): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\yolodetectionoutput.cpp(17,10): fatal error C1083: 无法打开包括文件: “layer_type.h”: No such file or directory
+  yolov3detectionoutput.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\yolov3detectionoutput.h(28,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\yolov3detectionoutput.h(28,43): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\yolov3detectionoutput.h(30,104): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\yolov3detectionoutput.h(30,104): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer\yolov3detectionoutput.cpp(17,10): fatal error C1083: 无法打开包括文件: “layer_type.h”: No such file or directory
+  mat_pixel_affine.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\platform.h(42,10): fatal error C1083: 无法打开包括文件: “ncnn_export.h”: No such file or directory
+  mat_pixel_android.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\platform.h(42,10): fatal error C1083: 无法打开包括文件: “ncnn_export.h”: No such file or directory
+  mat_pixel_drawing.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\platform.h(42,10): fatal error C1083: 无法打开包括文件: “ncnn_export.h”: No such file or directory
+  mat_pixel_resize.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\platform.h(42,10): fatal error C1083: 无法打开包括文件: “ncnn_export.h”: No such file or directory
+  mat_pixel_rotate.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\platform.h(42,10): fatal error C1083: 无法打开包括文件: “ncnn_export.h”: No such file or directory
+  modelbin.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\platform.h(42,10): fatal error C1083: 无法打开包括文件: “ncnn_export.h”: No such file or directory
+  option.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\platform.h(42,10): fatal error C1083: 无法打开包括文件: “ncnn_export.h”: No such file or directory
+  paramdict.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\platform.h(42,10): fatal error C1083: 无法打开包括文件: “ncnn_export.h”: No such file or directory
+  pipeline.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\platform.h(42,10): fatal error C1083: 无法打开包括文件: “ncnn_export.h”: No such file or directory
+  pipelinecache.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\platform.h(42,10): fatal error C1083: 无法打开包括文件: “ncnn_export.h”: No such file or directory
+  simpleocv.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\platform.h(42,10): fatal error C1083: 无法打开包括文件: “ncnn_export.h”: No such file or directory
+  正在生成代码...
+  正在编译...
+  simpleomp.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\platform.h(42,10): fatal error C1083: 无法打开包括文件: “ncnn_export.h”: No such file or directory
+  simplestl.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\platform.h(42,10): fatal error C1083: 无法打开包括文件: “ncnn_export.h”: No such file or directory
+  ncnn_aka.cpp
+  正在生成代码...
