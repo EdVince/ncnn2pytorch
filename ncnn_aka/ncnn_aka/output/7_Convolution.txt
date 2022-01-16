@@ -1,0 +1,5 @@
+fire2/expand1x1
+fire2/squeeze1x1_fire2/relu_squeeze1x1_splitncnn_1 
+fire2/expand1x1 
+64 1 1 1 1 1 1 0 0 0 0 0 1 1024 0
+

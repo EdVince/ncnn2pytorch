@@ -13,1203 +13,1212 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ncnn">
+      <UniqueIdentifier>{cc0a5972-6a41-4c8d-885c-2bf7a8a55d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ncnn\layer">
+      <UniqueIdentifier>{6ceecf74-7f38-4f0d-9f91-90e549280294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ncnn\layer\x86">
+      <UniqueIdentifier>{9dcdb721-8148-4139-9449-cc6388c0e56d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ncnn_aka.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\allocator.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\benchmark.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\blob.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\c_api.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\command.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\cpu.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\datareader.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\gpu.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\mat.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\mat_pixel.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\mat_pixel_affine.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\mat_pixel_android.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\mat_pixel_drawing.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\mat_pixel_resize.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\mat_pixel_rotate.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\modelbin.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\net.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\option.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\paramdict.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\pipeline.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\pipelinecache.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\simpleocv.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\simpleomp.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\simplestl.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\absval.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\argmax.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\batchnorm.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\bias.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\binaryop.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\bnll.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\cast.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\clip.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\concat.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\convolution.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\convolution1d.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\convolutiondepthwise.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\crop.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\deconvolution.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\deconvolutiondepthwise.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\deepcopy.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\dequantize.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\detectionoutput.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\dropout.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\eltwise.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\elu.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\embed.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\exp.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\expanddims.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\flatten.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\gelu.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\gemm.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\groupnorm.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\gru.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\hardsigmoid.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\hardswish.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\innerproduct.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\input.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\instancenorm.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\interp.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\layernorm.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\log.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\lrn.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\lstm.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\memorydata.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\mish.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\multiheadattention.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\mvn.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\noop.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\normalize.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\packing.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\padding.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\permute.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\pixelshuffle.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\pooling.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\pooling1d.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\power.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\prelu.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\priorbox.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\proposal.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\psroipooling.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\quantize.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\reduction.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\relu.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\reorg.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\requantize.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\reshape.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\rnn.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\roialign.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\roipooling.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\scale.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\selu.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\shufflechannel.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\sigmoid.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\slice.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\softmax.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\softplus.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\split.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\spp.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\squeeze.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\statisticspooling.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\swish.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\tanh.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\threshold.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\tile.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\unaryop.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\yolodetectionoutput.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\yolov3detectionoutput.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\batchnorm_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\batchnorm_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\bias_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\bias_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\binaryop_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\binaryop_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\cast_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\cast_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\clip_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\clip_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\concat_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\concat_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\convolution_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\convolution_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\convolutiondepthwise_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\convolutiondepthwise_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\crop_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\crop_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\dequantize_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\dequantize_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\dropout_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\dropout_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\eltwise_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\eltwise_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\flatten_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\flatten_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\hardsigmoid_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\hardsigmoid_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\hardswish_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\hardswish_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\innerproduct_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\innerproduct_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\lrn_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\lrn_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\lstm_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\lstm_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\mish_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\mish_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\packing_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\packing_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\padding_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\padding_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\pooling_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\pooling_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\prelu_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\prelu_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\quantize_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\quantize_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\relu_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\relu_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\requantize_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\requantize_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\reshape_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\reshape_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\roialign_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\roialign_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\scale_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\scale_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\sigmoid_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\sigmoid_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\slice_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\slice_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\swish_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\swish_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\tanh_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\tanh_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\yolov3detectionoutput_x86.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
     <ClCompile Include="ncnn\layer\x86\yolov3detectionoutput_x86_avx2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ncnn\allocator.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\benchmark.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\blob.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\c_api.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\command.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\cpu.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\datareader.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\gpu.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer_declaration.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer_registry.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer_shader_registry.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer_shader_spv_data.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer_shader_type.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer_shader_type_enum.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer_type.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer_type_enum.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\mat.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\mat_pixel_drawing_font.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\modelbin.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\ncnn_export.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\net.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\option.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\paramdict.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\pipeline.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\pipelinecache.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\platform.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\simpleocv.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\simpleomp.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\simplestl.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\stb_image.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\stb_image_write.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\vulkan_header_fix.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\absval.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\argmax.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\batchnorm.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\bias.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\binaryop.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\bnll.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\cast.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\clip.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\concat.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\convolution.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\convolution1d.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\convolutiondepthwise.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\crop.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\deconvolution.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\deconvolutiondepthwise.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\deepcopy.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\dequantize.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\detectionoutput.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\dropout.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\eltwise.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\elu.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\embed.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\exp.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\expanddims.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\flatten.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\gelu.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\gemm.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\groupnorm.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\gru.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\hardsigmoid.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\hardswish.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\innerproduct.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\input.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\instancenorm.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\interp.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\layernorm.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\log.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\lrn.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\lstm.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\memorydata.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\mish.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\multiheadattention.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\mvn.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\noop.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\normalize.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\packing.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\padding.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\permute.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\pixelshuffle.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\pooling.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\pooling1d.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\power.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\prelu.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\priorbox.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\proposal.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\psroipooling.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\quantize.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\reduction.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\relu.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\reorg.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\requantize.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\reshape.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\rnn.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\roialign.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\roipooling.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\scale.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\selu.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\shufflechannel.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\sigmoid.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\slice.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\softmax.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\softplus.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\split.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\spp.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\squeeze.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\statisticspooling.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\swish.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\tanh.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\threshold.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\tile.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\unaryop.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\yolodetectionoutput.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\yolov3detectionoutput.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\avx_mathfun.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\batchnorm_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\batchnorm_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\bias_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\bias_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\binaryop_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\binaryop_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\cast_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\cast_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\clip_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\clip_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\concat_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\concat_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_1x1.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_1x1_int8.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_1x1_pack4.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_1x1_pack8.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_1x1_pack8_fp16.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_1x1_pack8to4_int8.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_2x2_pack8.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_2x2_pack8_fp16.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_3x3.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_3x3_int8.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_3x3_pack1to8.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_3x3_pack8.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_3x3_pack8to1.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_5x5.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_7x7.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_int8.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_pack1to4_int8.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_pack8to1_int8.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_pack8to4_int8.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_sgemm.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_sgemm_int8.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_sgemm_pack8to4_int8.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolution_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolutiondepthwise_3x3.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolutiondepthwise_3x3_int8.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolutiondepthwise_3x3_pack8.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolutiondepthwise_3x3_pack8_fp16.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolutiondepthwise_5x5_pack8.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolutiondepthwise_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\convolutiondepthwise_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\crop_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\crop_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\dequantize_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\dequantize_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\dropout_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\dropout_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\eltwise_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\eltwise_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\flatten_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\flatten_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\hardsigmoid_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\hardsigmoid_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\hardswish_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\hardswish_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\innerproduct_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\innerproduct_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\lrn_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\lrn_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\lstm_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\lstm_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\mish_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\mish_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\packing_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\packing_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\padding_pack4.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\padding_pack8.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\padding_pack8_int8.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\padding_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\padding_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\pooling_2x2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\pooling_2x2_pack8.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\pooling_3x3_pack8.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\pooling_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\pooling_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\prelu_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\prelu_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\quantize_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\quantize_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\relu_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\relu_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\requantize_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\requantize_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\reshape_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\reshape_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\roialign_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\roialign_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\scale_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\scale_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\sigmoid_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\sigmoid_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\slice_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\slice_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\sse_mathfun.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\swish_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\swish_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\tanh_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\tanh_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\x86_activation.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\x86_usability.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\yolov3detectionoutput_x86.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
     <ClInclude Include="ncnn\layer\x86\yolov3detectionoutput_x86_avx2.h">
-      <Filter>头文件</Filter>
+      <Filter>ncnn\layer\x86</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

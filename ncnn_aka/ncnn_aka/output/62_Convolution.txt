@@ -1,0 +1,5 @@
+fire9/squeeze1x1
+fire8/concat 
+fire9/squeeze1x1 
+64 1 1 1 1 1 1 0 0 0 0 0 1 32768 0
+

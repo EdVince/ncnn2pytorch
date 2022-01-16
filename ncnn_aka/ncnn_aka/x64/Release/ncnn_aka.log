@@ -1,0 +1,23 @@
+﻿  ncnn_aka.cpp
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\platform.h(189,19): warning C4138: 在注释外找到“*/”
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\blob.h(32,21): warning C4251: “ncnn::Blob::name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“ncnn::Blob”的客户端使用
+D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer.h(154,21): warning C4251: “ncnn::Layer::type”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“ncnn::Layer”的客户端使用
+D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer.h(156,21): warning C4251: “ncnn::Layer::name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“ncnn::Layer”的客户端使用
+D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer.h(159,29): warning C4251: “ncnn::Layer::bottoms”: class“std::vector<int,std::allocator<int>>”需要有 dll 接口由 class“ncnn::Layer”的客户端使用
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer.h(159): message : 参见“std::vector<int,std::allocator<int>>”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer.h(161,26): warning C4251: “ncnn::Layer::tops”: class“std::vector<int,std::allocator<int>>”需要有 dll 接口由 class“ncnn::Layer”的客户端使用
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer.h(159): message : 参见“std::vector<int,std::allocator<int>>”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer.h(163,35): warning C4251: “ncnn::Layer::bottom_shapes”: class“std::vector<ncnn::Mat,std::allocator<ncnn::Mat>>”需要有 dll 接口由 class“ncnn::Layer”的客户端使用
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer.h(108): message : 参见“std::vector<ncnn::Mat,std::allocator<ncnn::Mat>>”的声明
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer.h(164,32): warning C4251: “ncnn::Layer::top_shapes”: class“std::vector<ncnn::Mat,std::allocator<ncnn::Mat>>”需要有 dll 接口由 class“ncnn::Layer”的客户端使用
+E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer.h(108): message : 参见“std::vector<ncnn::Mat,std::allocator<ncnn::Mat>>”的声明
+    正在创建库 E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\x64\Release\ncnn_aka.lib 和对象 E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\x64\Release\ncnn_aka.exp
+  正在生成代码
+  1 of 3665 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    44 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  ncnn_aka.vcxproj -> E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\x64\Release\ncnn_aka.exe

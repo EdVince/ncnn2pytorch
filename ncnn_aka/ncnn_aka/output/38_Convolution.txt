@@ -1,0 +1,5 @@
+fire6/squeeze1x1
+pool5 
+fire6/squeeze1x1 
+48 1 1 1 1 1 1 0 0 0 0 0 1 12288 0
+

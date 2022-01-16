@@ -1,0 +1,5 @@
+fire5/expand3x3
+fire5/squeeze1x1_fire5/relu_squeeze1x1_splitncnn_0 
+fire5/expand3x3 
+128 3 3 1 1 1 1 1 1 1 1 0 1 36864 0
+
