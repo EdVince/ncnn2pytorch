@@ -1,4 +1,4 @@
 fire6/concat
 fire6/expand1x1_fire6/relu_expand1x1 fire6/expand3x3_fire6/relu_expand3x3 
 fire6/concat 
-0
+0 

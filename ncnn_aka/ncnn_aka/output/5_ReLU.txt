@@ -1,4 +1,4 @@
 fire2/relu_squeeze1x1
 fire2/squeeze1x1 
 fire2/squeeze1x1_fire2/relu_squeeze1x1 
-0
+0 

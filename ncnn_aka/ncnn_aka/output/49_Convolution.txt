@@ -1,5 +1,4 @@
 fire7/expand1x1
 fire7/squeeze1x1_fire7/relu_squeeze1x1_splitncnn_1 
 fire7/expand1x1 
-192 1 1 1 1 1 1 0 0 0 0 0 1 9216 0
-
+192 1 1 1 1 1 1 0 0 0 0 0 1 9216 0 

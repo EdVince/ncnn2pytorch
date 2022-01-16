@@ -1,4 +1,4 @@
 fire3/relu_expand3x3
 fire3/expand3x3 
 fire3/expand3x3_fire3/relu_expand3x3 
-0
+0 

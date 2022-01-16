@@ -1,5 +1,4 @@
 fire5/squeeze1x1
 fire4/concat 
 fire5/squeeze1x1 
-32 1 1 1 1 1 1 0 0 0 0 0 1 8192 0
-
+32 1 1 1 1 1 1 0 0 0 0 0 1 8192 0 

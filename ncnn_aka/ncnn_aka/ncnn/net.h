@@ -29,6 +29,68 @@
 
 namespace ncnn {
 
+class NetPrivate
+{
+public:
+    NetPrivate(Option& _opt);
+
+    std::vector<std::string> fuck;
+
+    Option& opt;
+
+#if NCNN_VULKAN
+
+    int upload_model();
+
+#endif // NCNN_VULKAN
+
+    friend class Extractor;
+    int forward_layer(int layer_index, std::vector<Mat>& blob_mats, const Option& opt);
+
+#if NCNN_VULKAN
+    int forward_layer(int layer_index, std::vector<Mat>& blob_mats, std::vector<VkMat>& blob_mats_gpu, VkCompute& cmd, const Option& opt) const;
+    int forward_layer(int layer_index, std::vector<Mat>& blob_mats, std::vector<VkMat>& blob_mats_gpu, std::vector<VkImageMat>& blob_mats_gpu_image, VkCompute& cmd, const Option& opt) const;
+#endif // NCNN_VULKAN
+
+    int convert_layout(Mat& bottom_blob, const Layer* layer, const Option& opt) const;
+
+    int do_forward_layer(const Layer* layer, std::vector<Mat>& blob_mats, const Option& opt) const;
+#if NCNN_VULKAN
+    int do_forward_layer(const Layer* layer, std::vector<VkMat>& blob_mats_gpu, VkCompute& cmd, const Option& opt) const;
+    int do_forward_layer(const Layer* layer, std::vector<VkImageMat>& blob_mats_gpu_image, VkCompute& cmd, const Option& opt) const;
+#endif // NCNN_VULKAN
+
+    void update_input_output_indexes();
+#if NCNN_STRING
+    void update_input_output_names();
+#endif // NCNN_STRING
+
+    std::vector<Blob> blobs;
+    std::vector<Layer*> layers;
+
+    std::vector<int> input_blob_indexes;
+    std::vector<int> output_blob_indexes;
+#if NCNN_STRING
+    std::vector<const char*> input_blob_names;
+    std::vector<const char*> output_blob_names;
+#endif // NCNN_STRING
+
+    std::vector<custom_layer_registry_entry> custom_layer_registry;
+
+    PoolAllocator* local_blob_allocator;
+    PoolAllocator* local_workspace_allocator;
+
+#if NCNN_VULKAN
+    const VulkanDevice* vkdev;
+
+    VkAllocator* weight_vkallocator;
+    VkAllocator* weight_staging_vkallocator;
+
+    PipelineCache* pipeline_cache;
+#endif // NCNN_VULKAN
+};
+
+
 #if NCNN_VULKAN
 class VkCompute;
 #endif // NCNN_VULKAN
@@ -142,10 +204,11 @@ public:
     std::vector<Blob>& mutable_blobs();
     std::vector<Layer*>& mutable_layers();
 
+    int find_blob_index_by_name(const char* name) const;
+
 protected:
     friend class Extractor;
 #if NCNN_STRING
-    int find_blob_index_by_name(const char* name) const;
     int find_layer_index_by_name(const char* name) const;
     virtual int custom_layer_to_index(const char* type);
     virtual Layer* create_custom_layer(const char* type);
@@ -156,8 +219,8 @@ private:
     Net(const Net&);
     Net& operator=(const Net&);
 
-private:
-    NetPrivate* const d;
+public:
+    NetPrivate* d;
 };
 
 class ExtractorPrivate;
@@ -263,7 +326,7 @@ protected:
     friend Extractor Net::create_extractor() const;
     Extractor(const Net* net, size_t blob_count);
 
-private:
+public:
     ExtractorPrivate* const d;
 };
 

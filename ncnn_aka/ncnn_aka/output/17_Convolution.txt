@@ -1,5 +1,4 @@
 fire3/expand3x3
 fire3/squeeze1x1_fire3/relu_squeeze1x1_splitncnn_0 
 fire3/expand3x3 
-64 3 3 1 1 1 1 1 1 1 1 0 1 9216 0
-
+64 3 3 1 1 1 1 1 1 1 1 0 1 9216 0 

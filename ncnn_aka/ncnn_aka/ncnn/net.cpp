@@ -24,6 +24,8 @@
 #include <stdint.h>
 #include <string.h>
 
+#include <iostream>
+
 #if NCNN_BENCHMARK
 #include "benchmark.h"
 #endif // NCNN_BENCHMARK
@@ -34,65 +36,6 @@
 #endif // NCNN_VULKAN
 
 namespace ncnn {
-
-class NetPrivate
-{
-public:
-    NetPrivate(Option& _opt);
-
-    Option& opt;
-
-#if NCNN_VULKAN
-
-    int upload_model();
-
-#endif // NCNN_VULKAN
-
-    friend class Extractor;
-    int forward_layer(int layer_index, std::vector<Mat>& blob_mats, const Option& opt) const;
-
-#if NCNN_VULKAN
-    int forward_layer(int layer_index, std::vector<Mat>& blob_mats, std::vector<VkMat>& blob_mats_gpu, VkCompute& cmd, const Option& opt) const;
-    int forward_layer(int layer_index, std::vector<Mat>& blob_mats, std::vector<VkMat>& blob_mats_gpu, std::vector<VkImageMat>& blob_mats_gpu_image, VkCompute& cmd, const Option& opt) const;
-#endif // NCNN_VULKAN
-
-    int convert_layout(Mat& bottom_blob, const Layer* layer, const Option& opt) const;
-
-    int do_forward_layer(const Layer* layer, std::vector<Mat>& blob_mats, const Option& opt) const;
-#if NCNN_VULKAN
-    int do_forward_layer(const Layer* layer, std::vector<VkMat>& blob_mats_gpu, VkCompute& cmd, const Option& opt) const;
-    int do_forward_layer(const Layer* layer, std::vector<VkImageMat>& blob_mats_gpu_image, VkCompute& cmd, const Option& opt) const;
-#endif // NCNN_VULKAN
-
-    void update_input_output_indexes();
-#if NCNN_STRING
-    void update_input_output_names();
-#endif // NCNN_STRING
-
-    std::vector<Blob> blobs;
-    std::vector<Layer*> layers;
-
-    std::vector<int> input_blob_indexes;
-    std::vector<int> output_blob_indexes;
-#if NCNN_STRING
-    std::vector<const char*> input_blob_names;
-    std::vector<const char*> output_blob_names;
-#endif // NCNN_STRING
-
-    std::vector<custom_layer_registry_entry> custom_layer_registry;
-
-    PoolAllocator* local_blob_allocator;
-    PoolAllocator* local_workspace_allocator;
-
-#if NCNN_VULKAN
-    const VulkanDevice* vkdev;
-
-    VkAllocator* weight_vkallocator;
-    VkAllocator* weight_staging_vkallocator;
-
-    PipelineCache* pipeline_cache;
-#endif // NCNN_VULKAN
-};
 
 NetPrivate::NetPrivate(Option& _opt)
     : opt(_opt)
@@ -147,12 +90,12 @@ int NetPrivate::upload_model()
 }
 #endif // NCNN_VULKAN
 
-int NetPrivate::forward_layer(int layer_index, std::vector<Mat>& blob_mats, const Option& opt) const
+int NetPrivate::forward_layer(int layer_index, std::vector<Mat>& blob_mats, const Option& opt)
 {
     const Layer* layer = layers[layer_index];
 
     //     NCNN_LOGE("forward_layer %d %s", layer_index, layer->name.c_str());
-
+    this->fuck.push_back(layer->name);
     if (layer->one_blob_only)
     {
         // load bottom blob

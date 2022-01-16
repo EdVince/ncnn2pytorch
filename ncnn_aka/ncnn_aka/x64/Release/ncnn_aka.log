@@ -16,8 +16,8 @@ E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer.h
 E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\ncnn_aka\ncnn\layer.h(108): message : 参见“std::vector<ncnn::Mat,std::allocator<ncnn::Mat>>”的声明
     正在创建库 E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\x64\Release\ncnn_aka.lib 和对象 E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\x64\Release\ncnn_aka.exp
   正在生成代码
-  1 of 3665 functions (<0.1%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    44 functions had inline decision re-evaluated but remain unchanged
+  17 of 3744 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+    14 functions were new in current compilation
+    68 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
   ncnn_aka.vcxproj -> E:\Develop\ncnn_opencv\ncnn_learning\ncnn2pytorch\ncnn_aka\x64\Release\ncnn_aka.exe
