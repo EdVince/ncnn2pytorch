@@ -95,7 +95,6 @@ int NetPrivate::forward_layer(int layer_index, std::vector<Mat>& blob_mats, cons
     const Layer* layer = layers[layer_index];
 
     //     NCNN_LOGE("forward_layer %d %s", layer_index, layer->name.c_str());
-    this->fuck.push_back(layer->name);
     if (layer->one_blob_only)
     {
         // load bottom blob
@@ -138,6 +137,7 @@ int NetPrivate::forward_layer(int layer_index, std::vector<Mat>& blob_mats, cons
         bottom_blob.elemsize = blob_mats[bottom_blob_index].elemsize;
     }
 #endif
+    this->fuck.push_back(layer->name);
     int ret = do_forward_layer(layer, blob_mats, opt);
 #if NCNN_BENCHMARK
     double end = get_current_time();

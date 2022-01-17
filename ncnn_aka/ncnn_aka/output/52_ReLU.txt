@@ -1,4 +1,0 @@
-fire7/relu_expand3x3
-fire7/expand3x3 
-fire7/expand3x3_fire7/relu_expand3x3 
-0 

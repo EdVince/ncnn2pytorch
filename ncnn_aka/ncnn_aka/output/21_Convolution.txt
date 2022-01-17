@@ -1,4 +1,0 @@
-fire4/squeeze1x1
-pool3 
-fire4/squeeze1x1 
-32 1 1 1 1 1 1 0 0 0 0 0 1 4096 0 

@@ -1,3 +1,0 @@
-splitncnn_3
-fire5/squeeze1x1_fire5/relu_squeeze1x1 
-fire5/squeeze1x1_fire5/relu_squeeze1x1_splitncnn_0 fire5/squeeze1x1_fire5/relu_squeeze1x1_splitncnn_1 

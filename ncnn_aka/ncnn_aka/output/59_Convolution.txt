@@ -1,4 +1,0 @@
-fire8/expand3x3
-fire8/squeeze1x1_fire8/relu_squeeze1x1_splitncnn_0 
-fire8/expand3x3 
-256 3 3 1 1 1 1 1 1 1 1 0 1 147456 0 

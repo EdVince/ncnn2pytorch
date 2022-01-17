@@ -1,4 +1,0 @@
-fire2/squeeze1x1
-pool1 
-fire2/squeeze1x1 
-16 1 1 1 1 1 1 0 0 0 0 0 1 1024 0 

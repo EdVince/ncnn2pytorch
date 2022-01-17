@@ -1,4 +1,0 @@
-pool5
-fire5/concat 
-pool5 
-0 3 3 2 2 0 0 0 0 0 0 0 0 0 0 

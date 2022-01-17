@@ -1,4 +1,0 @@
-relu_conv10
-conv10 
-conv10_relu_conv10 
-0 

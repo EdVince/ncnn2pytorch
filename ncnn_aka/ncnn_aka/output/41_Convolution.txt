@@ -1,4 +1,0 @@
-fire6/expand1x1
-fire6/squeeze1x1_fire6/relu_squeeze1x1_splitncnn_1 
-fire6/expand1x1 
-192 1 1 1 1 1 1 0 0 0 0 0 1 9216 0 

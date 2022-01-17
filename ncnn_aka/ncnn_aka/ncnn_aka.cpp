@@ -69,14 +69,14 @@ int main()
                 // 需要保存到bin的权重参数
                 if (l->weight_data.dims > 0) {
                     FILE* fp;
-                    fp = fopen((bin_name + "_weight.bin").c_str(), "w");
-                    fwrite(l->weight_data, sizeof(float), l->weight_data.w, fp);
+                    fp = fopen((bin_name + "weight.bin").c_str(), "wb");
+                    fwrite(l->weight_data.data, sizeof(float), l->weight_data.w, fp);
                     fclose(fp);
                 }
                 if (l->bias_data.dims > 0) {
                     FILE* fp;
-                    fp = fopen((bin_name + "_bias.bin").c_str(), "w");
-                    fwrite(l->bias_data, sizeof(float), l->bias_data.w, fp);
+                    fp = fopen((bin_name + "bias.bin").c_str(), "wb");
+                    fwrite(l->bias_data.data, sizeof(float), l->bias_data.w, fp);
                     fclose(fp);
                 }
             }
@@ -111,6 +111,7 @@ int main()
                 outfile << l->name << endl;
                 for (const auto& x : l->bottoms) outfile << net.blobs()[x].name << " "; outfile << endl; // 记录bottom blob
                 for (const auto& x : l->tops) outfile << net.blobs()[x].name << " "; outfile << endl; // 记录top blob
+                outfile << l->tops.size() << " " << endl;
                 outfile.close();
             }
             else if (layer_type == "Concat") {
@@ -172,11 +173,13 @@ int main()
             net.d->fuck.clear();
             ex.extract(output_names[i].c_str(), output_mat[i]);
             vector<string> fuck = net.d->fuck;
-            reverse(fuck.begin(), fuck.end());
             outfile << output_names[i] << " ";
             for (const auto& x : fuck) outfile << x << " "; outfile << endl;
         }
         outfile.close();
+
+
+
     }
     
     return 0;

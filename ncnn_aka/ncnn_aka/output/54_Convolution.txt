@@ -1,4 +1,0 @@
-fire8/squeeze1x1
-fire7/concat 
-fire8/squeeze1x1 
-64 1 1 1 1 1 1 0 0 0 0 0 1 24576 0 

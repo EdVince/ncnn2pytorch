@@ -1,4 +1,0 @@
-fire9/relu_expand1x1
-fire9/expand1x1 
-fire9/expand1x1_fire9/relu_expand1x1 
-0 

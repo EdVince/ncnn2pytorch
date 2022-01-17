@@ -1,4 +1,0 @@
-fire5/relu_squeeze1x1
-fire5/squeeze1x1 
-fire5/squeeze1x1_fire5/relu_squeeze1x1 
-0 

@@ -1,4 +1,0 @@
-fire2/concat
-fire2/expand1x1_fire2/relu_expand1x1 fire2/expand3x3_fire2/relu_expand3x3 
-fire2/concat 
-0 
